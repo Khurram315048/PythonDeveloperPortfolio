@@ -52,7 +52,6 @@ const skillsSection = {
     { skillName: "Redis", fontAwesomeClassname: "fas fa-server" },
     { skillName: "REST APIs", fontAwesomeClassname: "fas fa-network-wired" },
     { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
     { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
     { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
     { skillName: "HTML/CSS", fontAwesomeClassname: "fab fa-html5" }
@@ -105,40 +104,17 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Self-Employed Backend Developer",
-      company: "Robusto Solutions",
+      role: "Python Developer",
+      company: "Robusto Solutions Pakistan",
       companylogo: require("./assets/images/robustoLogo.png"),
       date: "September 2024 – Present",
-      desc: "Architecting and delivering full-stack backend systems for real-world clients including e-commerce platforms, LMS, and secure authentication systems.",
+      desc: "Backend development focused on secure authentication systems, AI model integration, and database optimization using Python, Flask, and SQLAlchemy.",
       descBullets: [
-        "Built a secure PHP authentication system with bcrypt hashing and brute-force protection — reducing security vulnerabilities by 95%",
-        "Integrated multiple AI models via Python APIs, developing NLP and data analysis pipelines",
-        "Designed and optimized MySQL schemas with proper indexing — improving query performance by 40%",
-        "Developed RESTful API endpoints for seamless frontend-backend communication with robust error handling"
-      ]
-    },
-    {
-      role: "Learning Management System (LMS) Developer",
-      company: "Robusto Solutions",
-      companylogo: require("./assets/images/robustoLogo.png"),
-      date: "2025 – Present",
-      desc: "Developing a complete LMS using Flask and MySQL with role-based access control for students and instructors.",
-      descBullets: [
-        "Built RESTful APIs for student enrollment, course management, and assignment submission modules",
-        "Designed normalized relational MySQL schema to handle users, courses, modules, and progress tracking",
-        "Implemented secure session management and authentication middleware with RBAC"
-      ]
-    },
-    {
-      role: "Backend Developer – CRUD & Task Management",
-      company: "Robusto Solutions",
-      companylogo: require("./assets/images/robustoLogo.png"),
-      date: "2023 – 2024",
-      desc: "Built and deployed fully functional backend applications using Python, Flask, and MySQL.",
-      descBullets: [
-        "Implemented all CRUD features with data validation, form handling, and error management",
-        "Developed REST API endpoints for task and user management workflows",
-        "Designed secure database structure ensuring data integrity and optimized queries"
+        "Architected and implemented a secure Python-based authentication system with JSON file storage, featuring bcrypt password hashing and brute-force protection through login attempt tracking",
+        "Reduced potential security vulnerabilities by 95% through implementation of industry-standard password hashing algorithms and secure session management",
+        "Integrated multiple AI models via Python APIs, developing custom scripts for natural language processing and data analysis tasks",
+        "Designed and optimized database schemas using SQLAlchemy ORM for efficient data retrieval, improving query performance by implementing proper indexing strategies",
+        "Developed RESTful API endpoints for seamless frontend-backend communication with proper error handling and validation"
       ]
     }
   ]
