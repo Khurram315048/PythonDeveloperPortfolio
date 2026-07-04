@@ -189,7 +189,7 @@ const achievementSection = {
       title: "Google AI Professional Certificate",
       subtitle:
         "Completed June 9, 2026 — 7 courses covering AI for Brainstorming, Research, Writing, Content Creation, Data Analysis, and App Building. Built a portfolio of 20+ AI-assisted artifacts and vibe-coded a custom AI solution.",
-      // image: require("./assets/images/googleAICertificate.png"),
+      // image: require("./assets/images/googleAiCertificate.png"),
       imageAlt: "Google AI Professional Certificate",
       footerLink: [
         { name: "Verify Certificate", url: "https://coursera.org/verify/professional-cert/22JBNJ40O6BL" }
