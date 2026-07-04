@@ -64,7 +64,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Institute of Southern Punjab",
-      logo: require("./assets/images/uspLogo.png"),
+      // logo: require("./assets/images/uspLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "July 2022 – July 2027 (Expected)",
       desc: "Relevant coursework: Data Structures, Algorithms, Database Systems, Object-Oriented Programming, Web Development, and Parallel & Distributed Computing.",
@@ -75,7 +75,7 @@ const educationInfo = {
     },
     {
       schoolName: "Punjab Group of Colleges",
-      logo: require("./assets/images/pgcLogo.png"),
+      // logo: require("./assets/images/pgcLogo.png"),
       subHeader: "F.Sc Pre-Medical",
       duration: "2019 – 2021",
       desc: "Completed F.Sc Pre-Medical from Punjab Group of Colleges.",
@@ -106,7 +106,7 @@ const workExperiences = {
     {
       role: "Python Developer",
       company: "Robusto Solutions Pakistan",
-      companylogo: require("./assets/images/robustologo.png"),
+      // companylogo: require("./assets/images/robustologo.png"),
       date: "September 2024 – Present",
       desc: "Backend development focused on secure authentication systems, AI model integration, and database optimization using Python, Flask, and SQLAlchemy.",
       descBullets: [
@@ -140,7 +140,7 @@ const bigProjects = {
     },
     {
       
-      image: require("./assets/images/lmsProject.png"),
+      // image: require("./assets/images/lmsProject.png"),
       projectName: "Learning Management System (LMS)",
       projectDesc:
         "A full-featured LMS platform built with Python, Flask, and MySQL, featuring student enrollment, course management, and assignment submission modules. Includes RESTful APIs for student and instructor dashboards with role-based access control (RBAC).",
@@ -150,7 +150,7 @@ const bigProjects = {
     },
     {
       
-      image: require("./assets/images/authSystemProject.png"),
+      // image: require("./assets/images/authSystemProject.png"),
       projectName: "Secure Authentication System",
       projectDesc:
         "Production-ready login system built with PHP, featuring encrypted password storage (Bcrypt), session management, rate limiting, and account lockout mechanisms to prevent brute-force attacks.",
@@ -160,7 +160,7 @@ const bigProjects = {
     },
     {
      
-     image: require("./assets/images/dbmsProject.png"),
+    //  image: require("./assets/images/dbmsProject.png"),
       projectName: "Database Management System",
       projectDesc:
         "Normalized database schemas designed for academic projects using MySQL, Python, and SQLAlchemy, with CRUD operations built on prepared statements to prevent SQL injection. Query optimization improved data retrieval speed by 40%.",
@@ -179,7 +179,7 @@ const achievementSection = {
     {
       title: "Crash Course on Python — Google (Coursera)",
       subtitle: "Completed June 8, 2026. Strengthened Python OOP and scripting foundations.",
-      image: require("./assets/images/pythonCertificate.png"),
+      // image: require("./assets/images/pythonCertificate.png"),
       imageAlt: "Google Python Crash Course Certificate",
       footerLink: [
         { name: "Verify Certificate", url: "https://coursera.org/verify/52KVT79YWDKY" }
@@ -189,7 +189,7 @@ const achievementSection = {
       title: "Hero Style — Production E-Commerce Platform",
       subtitle:
         "Built and deployed a multi-module full-stack e-commerce app with a complete admin control panel, user portal, and 14-table MySQL schema — demonstrating end-to-end full-stack development capability.",
-      image: require("./assets/images/achievementPlaceholder.png"),
+      // image: require("./assets/images/achievementPlaceholder.png"),
       imageAlt: "Hero Style Project",
       footerLink: [
         { name: "GitHub", url: "https://github.com/Khurram315048" }
@@ -199,7 +199,7 @@ const achievementSection = {
       title: "LMS Platform Development",
       subtitle:
         "Developed a full-featured Learning Management System with RBAC, course management, assignment workflows, and secure authentication using Flask and MySQL.",
-      image: require("./assets/images/achievementPlaceholder.png"),
+      // image: require("./assets/images/achievementPlaceholder.png"),
       imageAlt: "LMS Project",
       footerLink: [
         { name: "Source Code", url: "https://github.com/Khurram315048/LMS-PythonDevelopment" }
@@ -209,7 +209,7 @@ const achievementSection = {
       title: "Security Engineering",
       subtitle:
         "Architected a secure PHP authentication system with bcrypt hashing, brute-force protection, and session management — achieving a 95% reduction in potential security vulnerabilities.",
-      image: require("./assets/images/achievementPlaceholder.png"),
+      // image: require("./assets/images/achievementPlaceholder.png"),
       imageAlt: "Security Achievement",
       footerLink: []
     }
