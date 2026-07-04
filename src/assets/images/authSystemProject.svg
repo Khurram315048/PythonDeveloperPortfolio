@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#131c33"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3c9"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#22d3c9" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22d3c9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bgGrad)"/>
+  <rect width="800" height="450" fill="url(#glow)"/>
+
+  <!-- faint circuit lines -->
+  <g stroke="#2a3a5c" stroke-width="1.5" fill="none" opacity="0.5">
+    <path d="M0 80 H180 V140 H320"/>
+    <path d="M0 370 H140 V310 H260"/>
+    <path d="M800 100 H620 V160 H520"/>
+    <path d="M800 360 H660 V300 H560"/>
+    <circle cx="180" cy="80" r="4" fill="#2a3a5c" stroke="none"/>
+    <circle cx="320" cy="140" r="4" fill="#2a3a5c" stroke="none"/>
+    <circle cx="620" cy="100" r="4" fill="#2a3a5c" stroke="none"/>
+    <circle cx="560" cy="300" r="4" fill="#2a3a5c" stroke="none"/>
+  </g>
+
+  <!-- shield / lock signature element -->
+  <g transform="translate(400,205)">
+    <path d="M0 -95 L88 -62 V18 C88 78 46 118 0 138 C-46 118 -88 78 -88 18 V-62 Z"
+          fill="url(#shieldGrad)" opacity="0.16" stroke="#22d3c9" stroke-width="2"/>
+    <path d="M0 -70 L64 -45 V13 C64 60 33 90 0 106 C-33 90 -64 60 -64 13 V-45 Z"
+          fill="#0f1a30" stroke="url(#shieldGrad)" stroke-width="2.5"/>
+    <!-- lock body -->
+    <rect x="-26" y="0" width="52" height="42" rx="6" fill="url(#shieldGrad)"/>
+    <path d="M-16 0 V-16 A16 16 0 0 1 16 -16 V0" fill="none" stroke="url(#shieldGrad)" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="0" cy="18" r="5" fill="#0b1220"/>
+    <rect x="-2.5" y="18" width="5" height="14" fill="#0b1220"/>
+  </g>
+
+  <!-- title -->
+  <text x="400" y="365" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#f1f5f9">Secure Authentication System</text>
+  <text x="400" y="396" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8ea2c6" letter-spacing="1.5">PHP · BCRYPT · SESSION SECURITY</text>
+</svg>

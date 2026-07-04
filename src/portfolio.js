@@ -106,7 +106,7 @@ const workExperiences = {
     {
       role: "Python Developer",
       company: "Robusto Solutions Pakistan",
-      companylogo: require("./assets/images/robustoLogo.png"),
+      companylogo: require("./assets/images/robustologo.png"),
       date: "September 2024 – Present",
       desc: "Backend development focused on secure authentication systems, AI model integration, and database optimization using Python, Flask, and SQLAlchemy.",
       descBullets: [
@@ -130,8 +130,7 @@ const bigProjects = {
   subtitle: "Production-grade backend and full-stack projects",
   projects: [
     {
-      // TODO: add your Hero Style project screenshot here
-      // image: require("./assets/images/heroStyleProject.png"),
+      image: require("./assets/images/heroStyleProject.png"),
       projectName: "Hero Style — Full-Stack E-Commerce Platform",
       projectDesc:
         "Full-stack e-commerce platform for a watch and earbuds store, built with Flask's Blueprint architecture across modular admin, products, orders, users, and categories modules. Includes an Admin Dashboard with role-based access control, product CRUD with image upload, category management, order tracking, revenue analytics, and support form handling. The public site features hero sections, product pages, category filters, a cart system, promo code checkout, and order confirmation flow — backed by a normalized 14-table MySQL schema with foreign key constraints, JOIN-heavy analytics queries, and soft-delete patterns.",
@@ -140,8 +139,8 @@ const bigProjects = {
       ]
     },
     {
-      // TODO: add your LMS project screenshot here
-      // image: require("./assets/images/lmsProject.png"),
+      
+      image: require("./assets/images/lmsProject.png"),
       projectName: "Learning Management System (LMS)",
       projectDesc:
         "A full-featured LMS platform built with Python, Flask, and MySQL, featuring student enrollment, course management, and assignment submission modules. Includes RESTful APIs for student and instructor dashboards with role-based access control (RBAC).",
@@ -150,8 +149,8 @@ const bigProjects = {
       ]
     },
     {
-      // TODO: add your Secure Authentication System screenshot here
-      // image: require("./assets/images/authSystemProject.png"),
+      
+      image: require("./assets/images/authSystemProject.png"),
       projectName: "Secure Authentication System",
       projectDesc:
         "Production-ready login system built with PHP, featuring encrypted password storage (Bcrypt), session management, rate limiting, and account lockout mechanisms to prevent brute-force attacks.",
@@ -160,8 +159,8 @@ const bigProjects = {
       ]
     },
     {
-      // TODO: add your Database Management System screenshot here
-      // image: require("./assets/images/dbmsProject.png"),
+     
+     image: require("./assets/images/dbmsProject.png"),
       projectName: "Database Management System",
       projectDesc:
         "Normalized database schemas designed for academic projects using MySQL, Python, and SQLAlchemy, with CRUD operations built on prepared statements to prevent SQL injection. Query optimization improved data retrieval speed by 40%.",
@@ -180,8 +179,7 @@ const achievementSection = {
     {
       title: "Crash Course on Python — Google (Coursera)",
       subtitle: "Completed June 8, 2026. Strengthened Python OOP and scripting foundations.",
-      // TODO: add your certificate screenshot/image here
-      // image: require("./assets/images/pythonCertificate.png"),
+      image: require("./assets/images/pythonCertificate.png"),
       image: require("./assets/images/achievementPlaceholder.png"),
       imageAlt: "Google Python Crash Course Certificate",
       footerLink: [
