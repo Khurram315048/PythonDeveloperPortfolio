@@ -140,7 +140,7 @@ const bigProjects = {
     },
     {
       
-      image: require("./assets/images/LmsProject.png"),
+      image: require("./assets/images/lmsProject.png"),
       projectName: "Learning Management System (LMS)",
       projectDesc:
         "A full-featured LMS platform built with Python, Flask, and MySQL, featuring student enrollment, course management, and assignment submission modules. Includes RESTful APIs for student and instructor dashboards with role-based access control (RBAC).",
