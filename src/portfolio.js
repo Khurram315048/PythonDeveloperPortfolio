@@ -63,13 +63,13 @@ const educationInfo = {
   display: true,
   schools: [
     {
-      schoolName: "University of Southern Punjab",
+      schoolName: "Institute of Southern Punjab",
       logo: require("./assets/images/uspLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "July 2022 – July 2027",
-      desc: "Pursuing a Bachelor's degree in Computer Science with a strong academic record (GPA: 3.7). Relevant coursework includes Data Structures, Algorithms, Database Systems, OOP, Web Development, and Parallel & Distributed Computing.",
+      duration: "July 2022 – July 2027 (Expected)",
+      desc: "Relevant coursework: Data Structures, Algorithms, Database Systems, Object-Oriented Programming, Web Development, and Parallel & Distributed Computing.",
       descBullets: [
-        "Built production-grade projects: e-commerce platform, LMS, secure auth system, and AI integration platform",
+        "Built production-grade projects: e-commerce platform, LMS, secure auth system, and AI integration scripts",
         "Strengthened skills in Python, MySQL, REST APIs, Flask Blueprint architecture, and system design"
       ]
     },
@@ -78,7 +78,7 @@ const educationInfo = {
       logo: require("./assets/images/pgcLogo.png"),
       subHeader: "F.Sc Pre-Medical",
       duration: "2019 – 2021",
-      desc: "Completed F.Sc Pre-Medical from Punjab Group of Colleges with strong academic performance.",
+      desc: "Completed F.Sc Pre-Medical from Punjab Group of Colleges.",
       descBullets: [
         "Built foundational concepts in biology, chemistry, and mathematics",
         "Actively participated in academic and co-curricular activities"
@@ -130,39 +130,43 @@ const bigProjects = {
   subtitle: "Production-grade backend and full-stack projects",
   projects: [
     {
-      image: require("./assets/images/lmsProject.png"),
+      // TODO: add your Hero Style project screenshot here
+      // image: require("./assets/images/heroStyleProject.png"),
       projectName: "Hero Style — Full-Stack E-Commerce Platform",
       projectDesc:
-        "A complete full-stack e-commerce platform for a watch and earbuds store built with Flask Blueprint architecture. Features a full Admin Dashboard with RBAC, product CRUD with image upload, order lifecycle management (cart → checkout → tracking → returns/cancellations), user portal with wishlist, reviews, and order history — all across a normalized 14-table MySQL schema.",
+        "Full-stack e-commerce platform for a watch and earbuds store, built with Flask's Blueprint architecture across modular admin, products, orders, users, and categories modules. Includes an Admin Dashboard with role-based access control, product CRUD with image upload, category management, order tracking, revenue analytics, and support form handling. The public site features hero sections, product pages, category filters, a cart system, promo code checkout, and order confirmation flow — backed by a normalized 14-table MySQL schema with foreign key constraints, JOIN-heavy analytics queries, and soft-delete patterns.",
       footerLink: [
         { name: "Source Code", url: "https://github.com/Khurram315048" }
       ]
     },
     {
-      image: require("./assets/images/lmsProject.png"),
+      // TODO: add your LMS project screenshot here
+      // image: require("./assets/images/lmsProject.png"),
       projectName: "Learning Management System (LMS)",
       projectDesc:
-        "A full-featured LMS platform built with Python, Flask, and MySQL. Includes student enrollment, course management, assignment submission, and instructor dashboards with role-based access control and secure session management.",
+        "A full-featured LMS platform built with Python, Flask, and MySQL, featuring student enrollment, course management, and assignment submission modules. Includes RESTful APIs for student and instructor dashboards with role-based access control (RBAC).",
       footerLink: [
         { name: "Source Code", url: "https://github.com/Khurram315048/LMS-PythonDevelopment" }
       ]
     },
     {
-      image: require("./assets/images/achievementPlaceholder.png"),
+      // TODO: add your Secure Authentication System screenshot here
+      // image: require("./assets/images/authSystemProject.png"),
       projectName: "Secure Authentication System",
       projectDesc:
-        "Production-ready PHP login system with bcrypt password encryption, session management, rate limiting, and account lockout mechanisms to prevent brute-force attacks. Reduced security vulnerabilities by 95%.",
+        "Production-ready login system built with PHP, featuring encrypted password storage (Bcrypt), session management, rate limiting, and account lockout mechanisms to prevent brute-force attacks.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/Khurram315048" }
+        { name: "Source Code", url: "https://github.com/Khurram315048" }
       ]
     },
     {
-      image: require("./assets/images/achievementPlaceholder.png"),
-      projectName: "AI Model Integration Platform",
+      // TODO: add your Database Management System screenshot here
+      // image: require("./assets/images/dbmsProject.png"),
+      projectName: "Database Management System",
       projectDesc:
-        "Python-based platform for integrating and testing multiple AI models through a unified API interface. Includes data preprocessing pipelines and an interactive dashboard for model performance monitoring and result visualization.",
+        "Normalized database schemas designed for academic projects using MySQL, Python, and SQLAlchemy, with CRUD operations built on prepared statements to prevent SQL injection. Query optimization improved data retrieval speed by 40%.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/Khurram315048" }
+        { name: "Source Code", url: "https://github.com/Khurram315048" }
       ]
     }
   ],
@@ -171,8 +175,19 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements & Certifications 🏆"),
-  subtitle: "Selected accomplishments and self-directed milestones",
+  subtitle: "Selected accomplishments, certifications, and self-directed milestones",
   achievementsCards: [
+    {
+      title: "Crash Course on Python — Google (Coursera)",
+      subtitle: "Completed June 8, 2026. Strengthened Python OOP and scripting foundations.",
+      // TODO: add your certificate screenshot/image here
+      // image: require("./assets/images/pythonCertificate.png"),
+      image: require("./assets/images/achievementPlaceholder.png"),
+      imageAlt: "Google Python Crash Course Certificate",
+      footerLink: [
+        { name: "Verify Certificate", url: "https://coursera.org/verify/52KVT79YWDKY" }
+      ]
+    },
     {
       title: "Hero Style — Production E-Commerce Platform",
       subtitle:
