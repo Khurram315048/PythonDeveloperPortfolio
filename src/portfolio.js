@@ -140,7 +140,7 @@ const bigProjects = {
     },
     {
       
-      image: require("./assets/images/lmsProject.png"),
+      image: require("./assets/images/LmsProject.png"),
       projectName: "Learning Management System (LMS)",
       projectDesc:
         "A full-featured LMS platform built with Python, Flask, and MySQL, featuring student enrollment, course management, and assignment submission modules. Includes RESTful APIs for student and instructor dashboards with role-based access control (RBAC).",
@@ -180,7 +180,6 @@ const achievementSection = {
       title: "Crash Course on Python — Google (Coursera)",
       subtitle: "Completed June 8, 2026. Strengthened Python OOP and scripting foundations.",
       image: require("./assets/images/pythonCertificate.png"),
-      image: require("./assets/images/achievementPlaceholder.png"),
       imageAlt: "Google Python Crash Course Certificate",
       footerLink: [
         { name: "Verify Certificate", url: "https://coursera.org/verify/52KVT79YWDKY" }
