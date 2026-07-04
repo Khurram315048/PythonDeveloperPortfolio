@@ -130,7 +130,7 @@ const bigProjects = {
   subtitle: "Production-grade backend and full-stack projects",
   projects: [
     {
-      image: require("./assets/images/heroStyleProject.PNG"),
+      image: require("./assets/images/heroStyleProject.png"),
       projectName: "Hero Style — Full-Stack E-Commerce Platform",
       projectDesc:
         "Full-stack e-commerce platform for a watch and earbuds store, built with Flask's Blueprint architecture across modular admin, products, orders, users, and categories modules. Includes an Admin Dashboard with role-based access control, product CRUD with image upload, category management, order tracking, revenue analytics, and support form handling. The public site features hero sections, product pages, category filters, a cart system, promo code checkout, and order confirmation flow — backed by a normalized 14-table MySQL schema with foreign key constraints, JOIN-heavy analytics queries, and soft-delete patterns.",
