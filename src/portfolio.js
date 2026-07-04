@@ -174,7 +174,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements & Certifications 🏆"),
-  subtitle: "Selected accomplishments, certifications, and self-directed milestones",
+  subtitle: "Selected certifications and self-directed milestones",
   achievementsCards: [
     {
       title: "Crash Course on Python — Google (Coursera)",
@@ -186,32 +186,14 @@ const achievementSection = {
       ]
     },
     {
-      title: "Hero Style — Production E-Commerce Platform",
+      title: "Google AI Professional Certificate",
       subtitle:
-        "Built and deployed a multi-module full-stack e-commerce app with a complete admin control panel, user portal, and 14-table MySQL schema — demonstrating end-to-end full-stack development capability.",
-      // image: require("./assets/images/achievementPlaceholder.png"),
-      imageAlt: "Hero Style Project",
+        "Completed June 9, 2026 — 7 courses covering AI for Brainstorming, Research, Writing, Content Creation, Data Analysis, and App Building. Built a portfolio of 20+ AI-assisted artifacts and vibe-coded a custom AI solution.",
+      // image: require("./assets/images/googleAICertificate.png"),
+      imageAlt: "Google AI Professional Certificate",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/Khurram315048" }
+        { name: "Verify Certificate", url: "https://coursera.org/verify/professional-cert/22JBNJ40O6BL" }
       ]
-    },
-    {
-      title: "LMS Platform Development",
-      subtitle:
-        "Developed a full-featured Learning Management System with RBAC, course management, assignment workflows, and secure authentication using Flask and MySQL.",
-      // image: require("./assets/images/achievementPlaceholder.png"),
-      imageAlt: "LMS Project",
-      footerLink: [
-        { name: "Source Code", url: "https://github.com/Khurram315048/LMS-PythonDevelopment" }
-      ]
-    },
-    {
-      title: "Security Engineering",
-      subtitle:
-        "Architected a secure PHP authentication system with bcrypt hashing, brute-force protection, and session management — achieving a 95% reduction in potential security vulnerabilities.",
-      // image: require("./assets/images/achievementPlaceholder.png"),
-      imageAlt: "Security Achievement",
-      footerLink: []
     }
   ],
   display: true
