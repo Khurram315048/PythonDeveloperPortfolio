@@ -34,27 +34,39 @@ const skillsSection = {
   subTitle:
     "Backend-focused Python Developer building scalable web services, secure APIs, and full-stack applications",
   skills: [
-    emoji("⚡ Build RESTful APIs and full-stack apps using Flask, FastAPI, and Django"),
-    emoji("⚡ Design and optimize MySQL schemas with 14+ table normalized structures"),
-    emoji("⚡ Implement secure authentication systems with bcrypt, session management & brute-force protection"),
-    emoji("⚡ Integrate AI models via Python APIs for NLP and data analysis tasks"),
-    emoji("⚡ Architect Blueprint-based modular Flask applications with role-based access control"),
-    emoji("⚡ Integrate caching and real-time features using Redis and WebSocket")
+    emoji(
+      "⚡ Build RESTful APIs and full-stack apps using Flask, FastAPI, and Django"
+    ),
+    emoji(
+      "⚡ Design and optimize MySQL schemas with 14+ table normalized structures"
+    ),
+    emoji(
+      "⚡ Implement secure authentication systems with bcrypt, session management & brute-force protection"
+    ),
+    emoji(
+      "⚡ Integrate AI models via Python APIs for NLP and data analysis tasks"
+    ),
+    emoji(
+      "⚡ Architect Blueprint-based modular Flask applications with role-based access control"
+    ),
+    emoji(
+      "⚡ Integrate caching and real-time features using Redis and WebSocket"
+    )
   ],
   softwareSkills: [
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "Flask", fontAwesomeClassname: "fas fa-fire" },
-    { skillName: "FastAPI", fontAwesomeClassname: "fas fa-bolt" },
-    { skillName: "Django", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "PHP", fontAwesomeClassname: "fab fa-php" },
-    { skillName: "C++", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "MySQL / SQLite", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Redis", fontAwesomeClassname: "fas fa-server" },
-    { skillName: "REST APIs", fontAwesomeClassname: "fas fa-network-wired" },
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "HTML/CSS", fontAwesomeClassname: "fab fa-html5" }
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "Flask", fontAwesomeClassname: "fas fa-fire"},
+    {skillName: "FastAPI", fontAwesomeClassname: "fas fa-bolt"},
+    {skillName: "Django", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "PHP", fontAwesomeClassname: "fab fa-php"},
+    {skillName: "C++", fontAwesomeClassname: "fas fa-code"},
+    {skillName: "MySQL / SQLite", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Redis", fontAwesomeClassname: "fas fa-server"},
+    {skillName: "REST APIs", fontAwesomeClassname: "fas fa-network-wired"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "HTML/CSS", fontAwesomeClassname: "fab fa-html5"}
   ],
   display: true
 };
@@ -90,12 +102,30 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Backend Development (Python, Flask, FastAPI, PHP)", progressPercentage: "85%" },
-    { Stack: "Database & SQL (MySQL, Schema Design, Query Optimization)", progressPercentage: "82%" },
-    { Stack: "API Development (REST APIs, Auth, RBAC, Validation)", progressPercentage: "80%" },
-    { Stack: "Security (Bcrypt, Session Mgmt, Brute-force Protection)", progressPercentage: "75%" },
-    { Stack: "Frontend Basics (HTML, CSS, JS, Jinja2)", progressPercentage: "55%" },
-    { Stack: "AI/ML Integration (Python APIs, Data Pipelines)", progressPercentage: "60%" }
+    {
+      Stack: "Backend Development (Python, Flask, FastAPI, PHP)",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Database & SQL (MySQL, Schema Design, Query Optimization)",
+      progressPercentage: "82%"
+    },
+    {
+      Stack: "API Development (REST APIs, Auth, RBAC, Validation)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Security (Bcrypt, Session Mgmt, Brute-force Protection)",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Frontend Basics (HTML, CSS, JS, Jinja2)",
+      progressPercentage: "55%"
+    },
+    {
+      Stack: "AI/ML Integration (Python APIs, Data Pipelines)",
+      progressPercentage: "60%"
+    }
   ],
   displayCodersrank: false
 };
@@ -135,37 +165,37 @@ const bigProjects = {
       projectDesc:
         "Full-stack e-commerce platform for a watch and earbuds store, built with Flask's Blueprint architecture across modular admin, products, orders, users, and categories modules. Includes an Admin Dashboard with role-based access control, product CRUD with image upload, category management, order tracking, revenue analytics, and support form handling. The public site features hero sections, product pages, category filters, a cart system, promo code checkout, and order confirmation flow — backed by a normalized 14-table MySQL schema with foreign key constraints, JOIN-heavy analytics queries, and soft-delete patterns.",
       footerLink: [
-        { name: "Source Code", url: "https://github.com/Khurram315048" }
+        {name: "Source Code", url: "https://github.com/Khurram315048"}
       ]
     },
     {
-      
       // image: require("./assets/images/lmsProject.png"),
       projectName: "Learning Management System (LMS)",
       projectDesc:
         "A full-featured LMS platform built with Python, Flask, and MySQL, featuring student enrollment, course management, and assignment submission modules. Includes RESTful APIs for student and instructor dashboards with role-based access control (RBAC).",
       footerLink: [
-        { name: "Source Code", url: "https://github.com/Khurram315048/LMS-PythonDevelopment" }
+        {
+          name: "Source Code",
+          url: "https://github.com/Khurram315048/LMS-PythonDevelopment"
+        }
       ]
     },
     {
-      
       // image: require("./assets/images/authSystemProject.png"),
       projectName: "Secure Authentication System",
       projectDesc:
         "Production-ready login system built with PHP, featuring encrypted password storage (Bcrypt), session management, rate limiting, and account lockout mechanisms to prevent brute-force attacks.",
       footerLink: [
-        { name: "Source Code", url: "https://github.com/Khurram315048" }
+        {name: "Source Code", url: "https://github.com/Khurram315048"}
       ]
     },
     {
-     
-    //  image: require("./assets/images/dbmsProject.png"),
+      //  image: require("./assets/images/dbmsProject.png"),
       projectName: "Database Management System",
       projectDesc:
         "Normalized database schemas designed for academic projects using MySQL, Python, and SQLAlchemy, with CRUD operations built on prepared statements to prevent SQL injection. Query optimization improved data retrieval speed by 40%.",
       footerLink: [
-        { name: "Source Code", url: "https://github.com/Khurram315048" }
+        {name: "Source Code", url: "https://github.com/Khurram315048"}
       ]
     }
   ],
@@ -178,11 +208,15 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Crash Course on Python — Google (Coursera)",
-      subtitle: "Completed June 8, 2026. Strengthened Python OOP and scripting foundations.",
+      subtitle:
+        "Completed June 8, 2026. Strengthened Python OOP and scripting foundations.",
       // image: require("./assets/images/pythonCertificate.png"),
       imageAlt: "Google Python Crash Course Certificate",
       footerLink: [
-        { name: "Verify Certificate", url: "https://coursera.org/verify/52KVT79YWDKY" }
+        {
+          name: "Verify Certificate",
+          url: "https://coursera.org/verify/52KVT79YWDKY"
+        }
       ]
     },
     {
@@ -192,7 +226,10 @@ const achievementSection = {
       // image: require("./assets/images/googleAiCertificate.png"),
       imageAlt: "Google AI Professional Certificate",
       footerLink: [
-        { name: "Verify Certificate", url: "https://coursera.org/verify/professional-cert/22JBNJ40O6BL" }
+        {
+          name: "Verify Certificate",
+          url: "https://coursera.org/verify/professional-cert/22JBNJ40O6BL"
+        }
       ]
     }
   ],
