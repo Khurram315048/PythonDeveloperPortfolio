@@ -76,7 +76,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Institute of Southern Punjab",
-      // logo: require("./assets/images/uspLogo.png"),
+      logo: require("./assets/images/uspLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "July 2022 – July 2027 (Expected)",
       desc: "Relevant coursework: Data Structures, Algorithms, Database Systems, Object-Oriented Programming, Web Development, and Parallel & Distributed Computing.",
@@ -87,7 +87,7 @@ const educationInfo = {
     },
     {
       schoolName: "Punjab Group of Colleges",
-      // logo: require("./assets/images/pgcLogo.png"),
+       logo: require("./assets/images/pgcLogo.png"),
       subHeader: "F.Sc Pre-Medical",
       duration: "2019 – 2021",
       desc: "Completed F.Sc Pre-Medical from Punjab Group of Colleges.",
@@ -136,7 +136,7 @@ const workExperiences = {
     {
       role: "Python Developer",
       company: "Robusto Solutions Pakistan",
-      // companylogo: require("./assets/images/robustologo.png"),
+       companylogo: require("./assets/images/robustologo.png"),
       date: "September 2024 – Present",
       desc: "Backend development focused on secure authentication systems, AI model integration, and database optimization using Python, Flask, and SQLAlchemy.",
       descBullets: [
@@ -160,7 +160,7 @@ const bigProjects = {
   subtitle: "Production-grade backend and full-stack projects",
   projects: [
     {
-      // image: require("./assets/images/heroStyleProject.png"),
+       image: require("./assets/images/heroStyleProject.png"),
       projectName: "Hero Style — Full-Stack E-Commerce Platform",
       projectDesc:
         "Full-stack e-commerce platform for a watch and earbuds store, built with Flask's Blueprint architecture across modular admin, products, orders, users, and categories modules. Includes an Admin Dashboard with role-based access control, product CRUD with image upload, category management, order tracking, revenue analytics, and support form handling. The public site features hero sections, product pages, category filters, a cart system, promo code checkout, and order confirmation flow — backed by a normalized 14-table MySQL schema with foreign key constraints, JOIN-heavy analytics queries, and soft-delete patterns.",
@@ -169,7 +169,7 @@ const bigProjects = {
       ]
     },
     {
-      // image: require("./assets/images/lmsProject.png"),
+       image: require("./assets/images/lmsProject.png"),
       projectName: "Learning Management System (LMS)",
       projectDesc:
         "A full-featured LMS platform built with Python, Flask, and MySQL, featuring student enrollment, course management, and assignment submission modules. Includes RESTful APIs for student and instructor dashboards with role-based access control (RBAC).",
@@ -181,7 +181,7 @@ const bigProjects = {
       ]
     },
     {
-      // image: require("./assets/images/authSystemProject.png"),
+       image: require("./assets/images/authSystemProject.svg"),
       projectName: "Secure Authentication System",
       projectDesc:
         "Production-ready login system built with PHP, featuring encrypted password storage (Bcrypt), session management, rate limiting, and account lockout mechanisms to prevent brute-force attacks.",
@@ -190,7 +190,7 @@ const bigProjects = {
       ]
     },
     {
-      //  image: require("./assets/images/dbmsProject.png"),
+       image: require("./assets/images/dbmsProject.svg"),
       projectName: "Database Management System",
       projectDesc:
         "Normalized database schemas designed for academic projects using MySQL, Python, and SQLAlchemy, with CRUD operations built on prepared statements to prevent SQL injection. Query optimization improved data retrieval speed by 40%.",
@@ -210,7 +210,7 @@ const achievementSection = {
       title: "Crash Course on Python — Google (Coursera)",
       subtitle:
         "Completed June 8, 2026. Strengthened Python OOP and scripting foundations.",
-      // image: require("./assets/images/pythonCertificate.png"),
+       image: require("./assets/images/pythonCertificate.png"),
       imageAlt: "Google Python Crash Course Certificate",
       footerLink: [
         {
@@ -223,7 +223,7 @@ const achievementSection = {
       title: "Google AI Professional Certificate",
       subtitle:
         "Completed June 9, 2026 — 7 courses covering AI for Brainstorming, Research, Writing, Content Creation, Data Analysis, and App Building. Built a portfolio of 20+ AI-assisted artifacts and vibe-coded a custom AI solution.",
-      // image: require("./assets/images/googleAiCertificate.png"),
+       image: require("./assets/images/googleAiCertificate.png"),
       imageAlt: "Google AI Professional Certificate",
       footerLink: [
         {
