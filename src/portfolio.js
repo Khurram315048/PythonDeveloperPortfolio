@@ -181,7 +181,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/authSystemProject.svg"),
+      image: require("./assets/images/authSystemProject.png"),
       projectName: "Secure Authentication System",
       projectDesc:
         "Production-ready login system built with PHP, featuring encrypted password storage (Bcrypt), session management, rate limiting, and account lockout mechanisms to prevent brute-force attacks.",
@@ -190,7 +190,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/dbmsProject.svg"),
+      image: require("./assets/images/dbmsProject.png"),
       projectName: "Database Management System",
       projectDesc:
         "Normalized database schemas designed for academic projects using MySQL, Python, and SQLAlchemy, with CRUD operations built on prepared statements to prevent SQL injection. Query optimization improved data retrieval speed by 40%.",
