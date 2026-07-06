@@ -210,7 +210,7 @@ const achievementSection = {
       title: "Crash Course on Python — Google (Coursera)",
       subtitle:
         "Completed June 8, 2026. Strengthened Python OOP and scripting foundations.",
-      image: require("./assets/images/pythonCertificate.png"),
+      image: require("./assets/images/pythonCertificate.PNG"),
       imageAlt: "Google Python Crash Course Certificate",
       footerLink: [
         {
