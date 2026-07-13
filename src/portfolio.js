@@ -181,14 +181,17 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/authSystemProject.png"),
-      projectName: "Secure Authentication System",
-      projectDesc:
-        "Production-ready login system built with PHP, featuring encrypted password storage (Bcrypt), session management, rate limiting, and account lockout mechanisms to prevent brute-force attacks.",
-      footerLink: [
-        {name: "Source Code", url: "https://github.com/Khurram315048"}
-      ]
-    },
+  image: require("./assets/images/djangoBlogProject1.png"),
+  projectName: "Django Blog Platform",
+  projectDesc:
+    "Full-featured blog platform built with Django, featuring dynamic post creation with slug generation, category-based navigation (Sports, Politics, Technology, Business, Health), search functionality, and an admin dashboard with authenticated session management. Includes a responsive homepage with featured/recent post sections and a clean editorial-style layout.",
+  footerLink: [
+    {
+      name: "Source Code",
+      url: "https://github.com/Khurram315048/Django-Blog"
+    }
+  ]
+},
     {
       image: require("./assets/images/dbmsProject.png"),
       projectName: "Database Management System",
