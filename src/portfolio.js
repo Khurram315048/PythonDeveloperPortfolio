@@ -234,6 +234,18 @@ const achievementSection = {
           url: "https://coursera.org/verify/professional-cert/22JBNJ40O6BL"
         }
       ]
+    },
+    {
+      title: "Google IT Automation with Python",
+      subtitle:
+      "Built practical automation skills across Python scripting, Git/GitHub, debugging, and configuration management for IT operations.",
+      image:require("./assets/images/ItAutomationCertificate.png"),
+      footerLink:[
+        {
+          name:"Verify Certificate",
+          url:"https://coursera.org/verify/professional-cert/HRM85UH10X5B"
+        }
+      ]
     }
   ],
   display: true
