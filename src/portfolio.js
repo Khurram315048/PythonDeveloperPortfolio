@@ -17,7 +17,7 @@ const greeting = {
   subTitle: emoji(
     "Backend-focused Python Developer 🚀 with hands-on experience building production-grade Flask applications, RESTful APIs, and MySQL databases. Delivered a full-stack e-commerce platform and LMS from scratch."
   ),
-  resumeLink: "/Muhammad_Khurram_CV_updated.pdf",
+  resumeLink: "/Muhammad_Khurram_Resume_updated_one.pdf",
   displayGreeting: true
 };
 
@@ -238,7 +238,7 @@ const achievementSection = {
     {
       title: "Google IT Automation with Python",
       subtitle:
-      "Built practical automation skills across Python scripting, Git/GitHub, debugging, and configuration management for IT operations.",
+      "Built practical automation skills across Python scripting, Git/GitHub, debugging, and configuration management for IT operations",
       image:require("./assets/images/ItAutomationCertificate.png"),
       footerLink:[
         {
