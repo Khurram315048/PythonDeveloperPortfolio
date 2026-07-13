@@ -181,7 +181,7 @@ const bigProjects = {
       ]
     },
     {
-  image: require("./assets/images/djangoBlogProject1.png"),
+  image: require("./assets/images/djangoBlogProject2.png"),
   projectName: "Django Blog Platform",
   projectDesc:
     "Full-featured blog platform built with Django, featuring dynamic post creation with slug generation, category-based navigation (Sports, Politics, Technology, Business, Health), search functionality, and an admin dashboard with authenticated session management. Includes a responsive homepage with featured/recent post sections and a clean editorial-style layout.",
