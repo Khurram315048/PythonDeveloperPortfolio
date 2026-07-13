@@ -181,7 +181,7 @@ const bigProjects = {
       ]
     },
     {
-  image: require("./assets/images/djangoProject2.png"),
+  image: require("./assets/images/djangoProject1.png"),
   projectName: "Django Blog Platform",
   projectDesc:
     "Full-featured blog platform built with Django, featuring dynamic post creation with slug generation, category-based navigation (Sports, Politics, Technology, Business, Health), search functionality, and an admin dashboard with authenticated session management. Includes a responsive homepage with featured/recent post sections and a clean editorial-style layout.",
@@ -213,7 +213,7 @@ const achievementSection = {
       title: "Crash Course on Python — Google (Coursera)",
       subtitle:
         "Completed June 8, 2026. Strengthened Python OOP and scripting foundations.",
-      image: require("./assets/images/pythonCertificate.PNG"),
+      image: require("./assets/images/pythonCertificate.png"),
       imageAlt: "Google Python Crash Course Certificate",
       footerLink: [
         {
